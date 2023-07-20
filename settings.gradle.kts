@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "modular_app"
 include(":app")
+include(":features:home")
