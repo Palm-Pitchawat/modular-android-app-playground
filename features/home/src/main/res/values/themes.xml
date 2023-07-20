@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--                                  content text                                      -->
+    <style name="small_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+    <style name="small_bold_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="medium_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="extra_large_text">
+        <item name="android:textSize">96sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="clear_small_text" parent="small_text">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="clear_small_bold_text" parent="small_bold_text">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="clear_medium_text" parent="medium_text">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="clear_extra_large_text" parent="extra_large_text">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="dark_small_text" parent="small_text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="dark_small_bold_text" parent="small_bold_text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="dark_medium_text" parent="medium_text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="dark_extra_large_text" parent="extra_large_text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--                                  main card                                      -->
+    <style name="main_card">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+    <style name="clear_main_card" parent="main_card">
+        <item name="cardBackgroundColor">@color/clear_blue</item>
+    </style>
+    <style name="dark_main_card" parent="main_card">
+        <item name="cardBackgroundColor">@color/dark_blue</item>
+    </style>
+
+    <!--                                  theme                                      -->
+    <style name="Theme.Modular.App" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </style>
+    <style name="Theme.Modular.App.Clear" parent="Theme.Modular.App">
+        <item name="main_card_style">@style/clear_main_card</item>
+        <item name="small_content_text">@style/clear_small_text</item>
+        <item name="small_bold_content_text">@style/clear_small_bold_text</item>
+        <item name="medium_content_text">@style/clear_medium_text</item>
+        <item name="special_content_text">@style/clear_extra_large_text</item>
+    </style>
+    <style name="Theme.Modular.App.Dark" parent="Theme.Modular.App">
+        <item name="main_card_style">@style/dark_main_card</item>
+        <item name="small_content_text">@style/dark_small_text</item>
+        <item name="small_bold_content_text">@style/dark_small_bold_text</item>
+        <item name="medium_content_text">@style/dark_medium_text</item>
+        <item name="special_content_text">@style/dark_extra_large_text</item>
+    </style>
+</resources>

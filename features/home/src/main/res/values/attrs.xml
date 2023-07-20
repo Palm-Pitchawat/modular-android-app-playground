@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="small_content_text" format="reference"/>
+    <attr name="small_bold_content_text" format="reference"/>
+    <attr name="medium_content_text" format="reference"/>
+    <attr name="special_content_text" format="reference"/>
+    <attr name="main_card_style" format="reference" />
+</resources>
