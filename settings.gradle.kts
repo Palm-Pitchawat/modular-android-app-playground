@@ -15,4 +15,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "modular_app"
 include(":app")
+
+include(":core:common")
+include(":core:network")
+
 include(":features:home")
